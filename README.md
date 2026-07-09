@@ -15,9 +15,8 @@
 - Formatted as both a .py and .exe file
 
 ## Design decisions
-When I was trying to figure out if I had enough of a few ingredients to make a recipe, I needed to know how much large amounts of ingredients weighed. I could not find anything that would tell me that, and I figured that a Python script to do this was something I could make.
-So I did.
-The use of PyInputPlus does mean that there is another library that needs to be installed before running this script, but it provides an easy input method. Colored text printed to the terminal makes it easy to see what you are supossed to input and prevents the terminal becoming a wall of text.
+The use of PyInputPlus makes it easy to provide valid input without guessing what the code is expecting.
 
+Colored text printed to the terminal makes it easy to see what you are supossed to input volume units, weight units, or numbers as well as preventing the terminal from becoming a wall of text.
 ## Credits
 The book [Automate the Boring Stuff with Python, by Al Sweigart](https://automatetheboringstuff.com/3e/chapter0.html) had information about PyInputPlus and formatting strings.
