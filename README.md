@@ -4,7 +4,7 @@
 <img src="images/terminal.png" alt="Program output in the terminal." style="width:75%; height:Auto;">
 
 ## Quick start
-1. Download [weight_converter.exe](code/weight_converter.exe)
+1. Download weight_converter.exe from the [Releases](github.com/Abracadabra3/weight_converter/releases/tag/1.0) page
 1. Run the file
 
 Or of you don't want to download the .exe:
