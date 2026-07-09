@@ -4,14 +4,14 @@
 <img src="images/terminal.png" alt="Program output in the terminal." style="width:75%; height:Auto;">
 
 ## Quick start
-1. In your Python environment, open the terminal and run `pip install pyinputplus`
-1. Download the script from GitHub and run it
+Run [weight_converter.exe](code/weight_converter.exe) in the Code folder or by clicking this link.
 
 ## Features
 - Takes input in all common US measuring sizes
 - Accepts grams, ounces, and pounds as weight units
 - Outputs weight in whatever weight and volume unit you want
 - Uses Python 3.13 and [PyInputPlus](pyinputplus.readthedocs.io/en/latest/)
+- Formatted as both a .py and .exe file
 
 ## Design decisions
 When I was trying to figure out if I had enough of a few ingredients to make a recipe, I needed to know how much large amounts of ingredients weighed. I could not find anything that would tell me that, and I figured that a Python script to do this was something I could make.
