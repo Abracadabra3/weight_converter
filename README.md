@@ -7,7 +7,7 @@
 1. Download weight_converter.exe from the [Releases](github.com/Abracadabra3/weight_converter/releases/tag/1.0) page
 1. Run the file
 
-Or of you don't want to download the .exe:
+Or if you don't want to download the .exe:
 
 1. Run `pip install pyinputplus` in your python environment
 1. Download [weight_converter.py](code/weight_converter.py) or copy and paste code and run the file.
@@ -22,4 +22,6 @@ Or of you don't want to download the .exe:
 The use of PyInputPlus makes it easy to provide valid input without guessing what the code is expecting.
 
 Colored text printed to the terminal makes it easy to see whether you are supossed to input volume units, weight units, or numbers. This also prevents the terminal from becoming a wall of text.
+
+## Credits
 The book [Automate the Boring Stuff with Python, by Al Sweigart](https://automatetheboringstuff.com/3e/chapter0.html) had information about PyInputPlus and formatting strings.
