@@ -7,6 +7,10 @@
 1. Download [weight_converter.exe](code/weight_converter.exe)
 1. Run the file
 
+Or of you don't want to download the .exe:
+
+1. Run `pip install pyinputplus` in your python environment
+1. Download [weight_converter.py](code/weight_converter.py) or copy and paste code and run the file.
 ## Features
 - Takes input in all common US measuring sizes
 - Accepts grams, ounces, and pounds as weight units
