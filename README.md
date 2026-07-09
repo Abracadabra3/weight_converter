@@ -17,6 +17,5 @@
 ## Design decisions
 The use of PyInputPlus makes it easy to provide valid input without guessing what the code is expecting.
 
-Colored text printed to the terminal makes it easy to see what you are supossed to input volume units, weight units, or numbers as well as preventing the terminal from becoming a wall of text.
-## Credits
+Colored text printed to the terminal makes it easy to see whether you are supossed to input volume units, weight units, or numbers. This also prevents the terminal from becoming a wall of text.
 The book [Automate the Boring Stuff with Python, by Al Sweigart](https://automatetheboringstuff.com/3e/chapter0.html) had information about PyInputPlus and formatting strings.
