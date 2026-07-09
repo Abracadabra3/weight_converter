@@ -4,7 +4,8 @@
 <img src="images/terminal.png" alt="Program output in the terminal." style="width:75%; height:Auto;">
 
 ## Quick start
-Run [weight_converter.exe](code/weight_converter.exe) in the Code folder or by clicking this link.
+1. Download [weight_converter.exe](code/weight_converter.exe)
+1. Run the file
 
 ## Features
 - Takes input in all common US measuring sizes
