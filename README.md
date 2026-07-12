@@ -4,13 +4,13 @@
 <img src="images/terminal.png" alt="Program output in the terminal." style="width:75%; height:Auto;">
 
 ## Quick start
-1. Download weight_converter.exe from the [Releases](github.com/Abracadabra3/weight_converter/releases/tag/1.0) page
+1. Download weight_converter.exe from the [Releases](https://github.com/Abracadabra3/weight_converter/releases/tag/1.0) page
 1. Run the file
 
 Or if you don't want to download the .exe:
 
 1. Run `pip install pyinputplus` in your python environment
-1. Download [weight_converter.py](code/weight_converter.py) or copy and paste code and run the file.
+1. Download [weight_converter.py](https://github.com/Abracadabra3/weight_converter/blob/main/code/weight_converter.py) or copy and paste code and run the file.
 ## Features
 - Takes input in all common US measuring sizes
 - Accepts grams, ounces, and pounds as weight units
