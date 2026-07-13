@@ -54,20 +54,20 @@ grey = "\x1b[38;2;100;100;100m"
 
 print(f"{beginning}This is a volume-to-weight converter for cooking.")
 print(f"Begin by entering the given volume-to-weight in the nutrition facts on your ingredient label.{volume}")
-label_x_ORIGINAL = pyinputplus.inputMenu(['tbs', 'tsp', 'c', 'qt', 'pt', 'gal'], lettered= True, prompt=" What is the unit given? \n")
+label_x_ORIGINAL = pyinputplus.inputMenu(['tbs', 'tsp', 'c', 'qt', 'pt', 'gal'], lettered=True, prompt=" What is the unit given? \n")
 print(f'{num}', end="")
 x_ORIGINAL = pyinputplus.inputNum(prompt="How many units? ")
 print(f'{weight}', end="")
-label_y_ORIGINAL = pyinputplus.inputMenu(['g', 'oz', 'lbs'], lettered= True, prompt=" What is the weight unit given? \n")
+label_y_ORIGINAL = pyinputplus.inputMenu(['g', 'oz', 'lbs'], lettered=True, prompt=" What is the weight unit given? \n")
 print(f'{num}', end="")
 y_ORIGINAL = pyinputplus.inputNum(prompt="How many weight units given? ")
 
 print(f"{bold}{halfway}Now enter the amount you want{volume}")
-label_z = pyinputplus.inputMenu(['tbs', 'tsp', 'c', 'pt', 'qt', 'gal'], lettered= True, prompt="What unit? \n")
+label_z = pyinputplus.inputMenu(['tbs', 'tsp', 'c', 'pt', 'qt', 'gal'], lettered=True, prompt="What unit? \n")
 print(f'{num}', end="")
 z = pyinputplus.inputNum(prompt="How many units? ")
 print(f'{weight}', end="")
-u = pyinputplus.inputMenu(['g', 'oz', 'lbs'], lettered= True, prompt="What weight unit do you want the answer in? \n")
+u = pyinputplus.inputMenu(['g', 'oz', 'lbs'], lettered=True, prompt="What weight unit do you want the answer in? \n")
 print(f'{num}', end="")
 
 x = convert_unit(x_ORIGINAL, label_x_ORIGINAL)
@@ -80,6 +80,8 @@ label_y = "g"
 # Weight per tablespoon
 if not x == 1:
     b = y / x
+else:
+    b = x
 
 # Figure out how much the desired quantity (y) weighs in grams
 alpha = b * z_2
