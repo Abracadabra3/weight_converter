@@ -86,6 +86,9 @@ alpha = b * z_2
 
 alpha = unconvert_weight_unit(alpha, u)
 alpha = round(alpha, 2)
-print(f"{finish}{str(x_ORIGINAL)} {str(label_x_ORIGINAL)} weighs {str(y_ORIGINAL)} {str(label_y_ORIGINAL)}.")
-print(f"{str(z)} {str(label_z)} weighs {str(alpha)} {str(u)}{reset}.")
+if alpha == int(alpha):
+    alpha = int(alpha)
+
+print(f"{finish}You entered: {str(x_ORIGINAL)} {str(label_x_ORIGINAL)} weighs {str(y_ORIGINAL)} {str(label_y_ORIGINAL)}.")
+print(f"Your new value: {str(z)} {str(label_z)} weighs {str(alpha)} {str(u)}{reset}.")
 nothing = input(f"{grey}Press enter to exit. {reset}")
